@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "sayi",
+						"type": "int256"
+					}
+				],
+				"name": "degerArtir",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "sayi",
+						"type": "int256"
+					}
+				],
+				"name": "degerAzalt",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "degerGoster",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SayiEkleCikar.sol": "Degerleme"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SayiEkleCikar.sol": {
+			"keccak256": "0xa69b7ef47ca41be461645af3510ab29c7c7be918eb3536cc8f2e4984d3c9bb1c",
+			"urls": [
+				"bzzr://2d61b584434321d389fd7a3cf8681cbed9d7fb8aabed239e05db7de21f8b4c2d"
+			]
+		}
+	},
+	"version": 1
+}
