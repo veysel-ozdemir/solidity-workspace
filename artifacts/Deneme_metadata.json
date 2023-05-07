@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "sahibi",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "yeniSahip",
+						"type": "address"
+					}
+				],
+				"name": "sahipDegistir",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"modifier.sol": "Deneme"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"modifier.sol": {
+			"keccak256": "0x9a075a4560c4dc7165c1e2b575e337bc17fa651bb03b0f41014d63b610d44044",
+			"urls": [
+				"bzz-raw://0e64325b452f73a79101a8fcc98b4f9c8044ca07f1d9ee7039f58a3407fd282d",
+				"dweb:/ipfs/QmVxRAGtjnJeHm48vQQsLUk1vWqd3At7GMYHmTxy2WzD2g"
+			]
+		}
+	},
+	"version": 1
+}

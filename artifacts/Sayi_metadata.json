@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "benimSayim",
+						"type": "uint256"
+					}
+				],
+				"name": "ayarlaSayi",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "sayimiSoyle",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mapping.sol": "Sayi"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mapping.sol": {
+			"keccak256": "0xf1c55ccd0d23795d1240a012624a4e1cfd04522e08f2ab2df186beb321c8ca5b",
+			"urls": [
+				"bzz-raw://0989ab3e4c60d7ef4381ed9ac864a345e49ca0c78aa7daaed89636fdc4ce08d1",
+				"dweb:/ipfs/QmNxiyJKodoRxzLuPraikfLdqr8WMD8t79DDF1f4Wdpr5R"
+			]
+		}
+	},
+	"version": 1
+}
