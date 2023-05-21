@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					}
+				],
+				"name": "buy",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "makeTheDraw",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"problem.sol": "Lottery"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"problem.sol": {
+			"keccak256": "0xeb4b4fb4bec8ad4b7afa2183c1fe536bcd69ef25e7190da4bff63674aa9d0a93",
+			"urls": [
+				"bzz-raw://58cd9a1e05096f93daaf66f2410a2444015ec1fa3dc069fea77ac95e8951aafd",
+				"dweb:/ipfs/QmRstFfgohW9dDdeZPLyFcU5dnT4knwJ1RGfU6hckq99Nc"
+			]
+		}
+	},
+	"version": 1
+}
