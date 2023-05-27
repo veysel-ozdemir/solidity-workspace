@@ -2,7 +2,7 @@ pragma solidity ^0.5.16;
 
 contract Lottery {
     uint totalMoney = 0; // total money of expenditures
-    address mainAcount; // account of thev company
+    address mainAcount; // account of the company
     Customer[] customers; // all customers
 
     struct Customer { // customer to be joined
@@ -24,5 +24,6 @@ contract Lottery {
 
     function makeTheDraw() public checkTime {
         uint award = (totalMoney/100)*10; // %10 of total expenditure
+        // choose randomly a customer
     }
 }
