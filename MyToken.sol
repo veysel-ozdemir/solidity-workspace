@@ -23,6 +23,7 @@ contract StandardToken is Token {
     
     mapping (address => uint256) balances;
     mapping (address => mapping (address => uint256)) allowed;
+    uint256 public totalSupply;
 
     function transfer(address _to, uint256 _value) returns (bool success) {
         if (balances[msg.sender] >= _value && _value > 0) {
@@ -70,8 +71,8 @@ contract MyToken is StandardToken {
     string public version = 'H1.0';
 
     function MyToken() {
-        balances[msg.sender] = 100000000000000000000000; // Cuzdan miktari (100 000)
-        totalSupply = 100000000000000000000000; // Toplam miktar --> totalSupply / 10^18
+        balances[msg.sender] = 100000000000000000000000; // Cuzdan miktari --> balances[] / 10^18 = 10^5
+        totalSupply = 100000000000000000000000; // Toplam miktar --> totalSupply / 10^18 = 10^5
         name = "MyToken";
         decimals = 18;
         symbol = "MYTX";
